@@ -53,4 +53,4 @@ If you encounter issues:
 
 ## Contact
 
-For any questions or suggestions, please create an issue or contact (mailto:soql.booster@outlook.com).
+For any questions or suggestions, please create an issue or [contact](mailto:soql.booster@outlook.com).
