@@ -9,8 +9,6 @@ Salesforce SOQL Booster is a Visual Studio Code extension designed to enhance th
 
 ![Demo 2](https://raw.githubusercontent.com/dyncan/salesforce-vscode-soql-booster/main/images/SOQL_Booster-Demo2.gif)
 
----
-
 ## Key Features
 
 - **Static SOQL Support**: Currently optimized for static SOQL queries within Apex classes.
