@@ -2,15 +2,22 @@
 
 ## Introduction
 
-Salesforce SOQL Booster is a powerful Visual Studio Code extension designed to enhance the efficiency of Salesforce developers when writing SOQL (Salesforce Object Query Language) queries. This plugin offers intelligent field suggestions, dynamic object recognition, and cache management features, making SOQL query writing faster and more accurate.
+Salesforce SOQL Booster is a Visual Studio Code extension designed to enhance the efficiency of Salesforce developers when writing static SOQL (Salesforce Object Query Language) queries within Apex classes. This plugin offers intelligent field suggestions, dynamic object recognition, and cache management features, making SOQL query writing faster and more accurate.
 
-## Features
+## Demo 
+![Demo 1](https://raw.githubusercontent.com/dyncan/salesforce-vscode-soql-booster/main/images/SOQL_Booster-Demo1.gif)
 
+![Demo 2](https://raw.githubusercontent.com/dyncan/salesforce-vscode-soql-booster/main/images/SOQL_Booster-Demo2.gif)
+
+---
+
+## Key Features
+
+- **Static SOQL Support**: Currently optimized for static SOQL queries within Apex classes.
 - **Intelligent Field Suggestions**: Automatically suggests available fields based on the current Salesforce object.
-- **Dynamic Object Recognition**: Automatically identifies objects in SOQL queries and provides relevant field suggestions.
+- **Dynamic Object Recognition**: Identifies objects in static SOQL queries and provides relevant field suggestions.
 - **Cache Management**: Caches field data for improved performance with an option for manual refresh.
 - **Cross-Relationship Query Support**: Provides field suggestions in relationship queries.
-- **User-Friendly Interface**: Clear prompts and an easy-to-use interface to enhance the development experience.
 
 ## Prerequisites
 
@@ -28,9 +35,11 @@ Salesforce SOQL Booster is a powerful Visual Studio Code extension designed to e
 ## Usage
 
 1. Open an Apex class file in your authenticated Salesforce project.
-2. Start writing a SOQL query (within the `[SELECT ... FROM ...]` format).
-3. The plugin will automatically identifies the object based on the current cursor position and provides corresponding field suggestions.
+2. Start writing a static SOQL query (within the `[SELECT ... FROM ...]` format).
+3. The plugin will automatically identify the object based on the current cursor position and provide corresponding field suggestions.
 4. Use Tab or Enter to accept suggestions.
+
+Note: The plugin currently supports static SOQL queries within Apex classes only.
 
 ### Clearing the Cache
 
@@ -43,14 +52,19 @@ To refresh field data:
 
 Currently, the plugin does not require additional configuration. It automatically uses your Salesforce CLI configuration to connect to your org.
 
+## Limitations
+
+- The plugin is currently optimized for static SOQL queries within Apex classes.
+- Dynamic SOQL or queries outside of Apex classes may not be fully supported.
+
 ## Troubleshooting
 
 If you encounter issues:
 
 1. Ensure your Salesforce CLI is correctly configured and can connect to your org.
-2. Check the "Salesforce SOQL Booster" log in VS Code's Output panel.
+2. Check that you're writing static SOQL queries within an Apex class.
 3. Try clearing the field cache.
 
 ## Contact
 
-For any questions or suggestions, please create an issue or [contact](mailto:soql.booster@outlook.com).
+For any questions, suggestions, or to report issues with static SOQL support, please create an issue or [contact us](mailto:soql.booster@outlook.com).
