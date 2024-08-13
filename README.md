@@ -5,9 +5,12 @@
 Salesforce SOQL Booster is a Visual Studio Code extension designed to enhance the efficiency of Salesforce developers when writing static SOQL (Salesforce Object Query Language) queries within Apex classes. This plugin offers intelligent field suggestions, dynamic object recognition, and cache management features, making SOQL query writing faster and more accurate.
 
 ## Demo 
+
 ![Demo 1](https://raw.githubusercontent.com/dyncan/salesforce-vscode-soql-booster/main/images/SOQL_Booster-Demo1.gif)
 
 ![Demo 2](https://raw.githubusercontent.com/dyncan/salesforce-vscode-soql-booster/main/images/SOQL_Booster-Demo2.gif)
+
+![Demo 3](https://raw.githubusercontent.com/dyncan/salesforce-vscode-soql-booster/main/images/SOQL_Booster-Demo3.gif)
 
 ## Key Features
 
