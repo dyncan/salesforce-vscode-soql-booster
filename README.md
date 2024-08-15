@@ -68,4 +68,4 @@ If you encounter issues:
 
 ## Contact
 
-For any questions, suggestions, or to report issues with static SOQL support, please create an issue or [contact us](mailto:soql.booster@outlook.com).
+For any questions, suggestions, or to report issues with VS Code extension support, please create an issue or [contact us](mailto:soql.booster@outlook.com).
