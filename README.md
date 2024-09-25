@@ -66,7 +66,7 @@ If you encounter issues:
 
 1. Ensure your Salesforce CLI is correctly configured and can connect to your org.
 2. Check that you're writing static SOQL queries within an Apex class.
-3. Try clearing the field cache.
+3. Press `Ctrl/Command + Shift + P` and search for 'SOQL Booster: Clear Salesforce Field Cache' to clear the cache.
 
 ## Contact
 
